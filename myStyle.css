@@ -1,0 +1,41 @@
+h1 {
+	font-family: 'Alata', sans-serif;
+	color: #FFFFFF;
+	background-color: #5480AF;
+}
+
+h2 {
+	font-family: 'Alata', sans-serif;
+	color: #FFFFFF;
+	background-color: #92D26F;
+}
+h3 {
+	font-family: 'Alata', sans-serif;
+}
+p {
+	font-family: 'Alata', sans-serif;
+
+}
+
+img {
+	border-style:  dotted;
+	border-color: #5480AF;
+}
+
+button:hover {
+	color: #5480AF;
+	background-color: #92D26F;
+	font-family: 'Alata', sans-serif;
+}
+
+button{
+	color: #92D26F;
+	background-color: #5480AF;
+	font-family: 'Alata', sans-serif;
+	font-size: 25px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
