@@ -23,19 +23,52 @@ img {
 }
 
 button:hover {
-	color: #5480AF;
+	color: #92D26F;
 	background-color: #92D26F;
 	font-family: 'Alata', sans-serif;
 }
 
-button{
-	color: #92D26F;
+button {
+	color: #FFFFFF;
 	background-color: #5480AF;
 	font-family: 'Alata', sans-serif;
 	font-size: 25px;
+	font
 }
 
 a {
 	color: #FFFFFF;
+	font-family: 'Alata', sans-serif;
+
 }
 
+li {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  padding: 11px;
+  background-color: #92D26F;
+}
+
+li a:hover {
+	background-color: #5480AF
+}
+
+footer {
+	background-color: #5480AF;
+}
+
+#comment {
+	height: 500px;
+	font-size:  20pt;
+
+}
+
+#journalForm, #partnerForm{
+	color: #5480AF;
+}
