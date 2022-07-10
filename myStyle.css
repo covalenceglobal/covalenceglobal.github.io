@@ -1,5 +1,7 @@
 html {
-	background-image: linear-gradient(to bottom right, #FFFFFF, #FFF, #5480AF);;
+	background-image: linear-gradient(to bottom right, #FFFFFF, #FFF, #5480AF);
+	animation-name: backgroundChange;
+	animation-duration: 4s;
 }
 
 h1 {
@@ -100,7 +102,7 @@ footer {
 }
 
 #recentProject {
-	padding-left: 220px;
+	padding-left: 250px;
 }
 
 #logo {
@@ -112,4 +114,19 @@ footer {
 
 #logoText {
 	padding-left: 260px;
+}
+
+#joinToday {
+	color: #FFFFFF;
+	background-color: #92D26F;
+	font-family: 'Alata', sans-serif;
+	font-size: 25px;
+	animation-name: colorChange1;
+	animation-duration: 4s;	
+}
+
+#joinToday:hover {
+	color: #FFFFFF;
+	background-color: #5480AF;
+	font-family: 'Alata', sans-serif;
 }
