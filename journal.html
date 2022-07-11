@@ -5,13 +5,26 @@
 </style>
 </head>
 
-	<ul>
-		<li id = "events"><a href = "events.html">Events</a></li>
-		<li id = "projects"><a href = "projects.html">Projects</a></li>
-		<li id = "climate"><a href = "climateChange.html">Climate Change</a></li>
-		<li id = "home"><a href = "index.html">Home</a></li>
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href = "index.html">Home</a>
+		<a href = "climateChange.html">Climate Change</a>
+		<a href = "projects.html">Projects</a>
+		<a href = "events.html">Events</a>
+</div>
+<span id="open" onclick="openNav()">Navigation Bar</span>
+<a class="closebtn" onclick="closeNav()"></a>
+<script>
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.body.style.backgroundColor = "white"
+	}
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+</script>
 
-	</ul>
 	<h1>Journal</h1>
 	<p>Our journal is a space for intellectual writing regarding climate change and social justice. Topics include science/innovation, climate change breakthroughs, environmental awareness, environmental policy, new economic paradigms, etc. If you are interested in writing an op-ed, please fill out <a id= "journalForm" href = "https://forms.gle/kPWo5sHAZXBZotSbA">this form.</a></p>
 

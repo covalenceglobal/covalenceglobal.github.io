@@ -7,13 +7,31 @@
 </style>
 </head>
 
-	<ul>
-		<li id = "events"><a href = "events.html">Events</a></li>
-		<li id = "projects"><a href = "projects.html">Projects</a></li>
-		<li id = "journal"><a href = "journal.html">Journal</a></li>
-		<li id = "climate"><a href = "climateChange.html">Climate Change</a></li>
 
-	</ul>
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href = "climateChange.html">Climate Change</a>
+		<a href = "journal.html">Journal</a>
+		<a href = "projects.html">Projects</a>
+		<a href = "events.html">Events</a>
+		
+		
+		
+</div>
+<span id="open" onclick="openNav()">Navigation Bar</span>
+<a class="closebtn" onclick="closeNav()"></a>
+<script>
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.body.style.backgroundColor = "white"
+	}
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+</script>
+
+
 	<h1>Welcome to Covalence</h1>
 	<h3><b>Note: We are still coding our website! It is still in progress.</b></h3>
 	<h2>About Covalence - SF</h2>

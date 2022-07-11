@@ -66,7 +66,7 @@ a {
 
 }
 
-li {
+#events, #projects, #journal, #climate, #home {
   float: right;
   list-style-type: none;
   margin: 0;
@@ -130,3 +130,61 @@ footer {
 	background-color: #5480AF;
 	font-family: 'Alata', sans-serif;
 }
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #5480AF;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sidenav a {
+	padding:  8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #FFF;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	background-color: #92D26F;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px}
+	.sidenav a {font-size: 18px}
+}
+
+#open{
+	float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    display: block;
+  padding: 11px;
+  background-color: #92D26F;
+  animation-name: colorChange2;
+  animation-duration: 4s;
+  color: #FFFFFF;
+	font-family: 'Alata', sans-serif;
+}
+
+#open:hover {
+	background-color: #5480AF;
+}
+
+
