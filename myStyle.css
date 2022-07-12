@@ -73,13 +73,7 @@ a {
   padding: 0;
 }
 
-li a {
-  display: block;
-  padding: 11px;
-  background-color: #92D26F;
-  animation-name: colorChange2;
-  animation-duration: 4s;
-}
+
 
 li a:hover {
 	background-color: #5480AF
@@ -189,5 +183,19 @@ footer {
 
 #software {
 	color: #5480AF;
+}
+
+#software:hover {
+	background-color: #92D26F;
+
+}
+
+li {
+	font-family: 'Alata', sans-serif;
+	font-size: 25px;
+}
+
+#indent {
+	padding-left: 50px;
 }
 
