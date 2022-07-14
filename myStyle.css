@@ -185,9 +185,17 @@ footer {
 	color: #5480AF;
 }
 
+#joinOurNetwork {
+	background-color: #5480AF;
+}
+
 #software:hover {
 	background-color: #92D26F;
 
+}
+
+#cyLink {
+	color: #5480AF;
 }
 
 li {
@@ -231,6 +239,76 @@ li {
 #emiliaFiebelText {
 	padding-left: 300px;
 }
+
+#epeh {
+	float: left;
+}
+
+#epehText {
+	padding-left: 300px;
+}
+
+#gloriaWu {
+	float: left;
+}
+
+#gloriaWuText {
+	padding-left: 300px;
+}
+
+#ilariaStollberg {
+	float: left;
+}
+
+#ilariaStollbergText {
+	padding-left: 300px;
+	padding-bottom: 75px;
+}
+
+#irisZhan {
+	float: left;
+}
+
+#irisZhanText {
+	padding-left: 300px;
+	padding-bottom: 125px;
+}
+
+#isabellaObrien {
+	float: left;
+}
+
+#isabellaObrienText {
+	padding-left: 300px;
+	padding-bottom: 25px;
+}
+
+#johnPaul {
+	float: left;
+}
+
+#johnPaulText {
+	padding-left: 300px;
+	padding-bottom: 25px;
+}
+
+#mariaBarriga {
+	float: left;
+}
+
+#mariaBarrigaText {
+	padding-left: 300px;
+	padding-bottom: 175px;
+}
+
+#svanfridurMura {
+	float: left;
+}
+
+#svanfridurMuraText {
+	padding-left: 300px;
+}
+
 
 
 
