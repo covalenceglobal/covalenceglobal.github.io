@@ -1,38 +1,49 @@
-<head>
-<link rel="stylesheet" type="text/css" href="myStyle.css">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Italiana&family=Major+Mono+Display&family=Monoton&family=Playfair+Display&family=Raleway:wght@100&family=Roboto+Mono:wght@100&display=swap');
-</style>
-</head>
-
-<div id="mySidenav" class="sidenav">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href = "index.html">Home</a>
-		<a href = "climateChange.html">Climate Change</a>
-		<a href = "journal.html">Journal</a>
-		<a href = "events.html">Events</a>
-		<a href = "covalentYouth.html">Covalent Youth</a>
-</div>
-<span id="open" onclick="openNav()">Navigation Bar</span>
-<a class="closebtn" onclick="closeNav()"></a>
-<script>
-	function closeNav() {
-		document.getElementById("mySidenav").style.width = "0";
-		document.body.style.backgroundColor = "white"
-	}
-	function openNav() {
-		document.getElementById("mySidenav").style.width = "250px";
-		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-	}
-</script>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Covalence Global - Journal</title>
+		<link href="style.css" rel="stylesheet">
+		<style> @import url('https://fonts.googleapis.com/css2?family=Alata&family=Italiana&family=Major+Mono+Display&family=Monoton&family=Playfair+Display&family=Raleway:wght@100&family=Roboto+Mono:wght@100&display=swap')</style>
+	</head>
 
 
-	<h1>Projects</h1>
+	<nav id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href = "index2.html">Home</a>
+			<a href = "journal.html">Journal</a>
+			<a href = "projects.html">Projects</a>
+			<a href = "events.html">Events</a>
+			<a href = "covalentYouth.html">Covalent Youth</a>
+	</nav>
+
+	<span id="open" onclick="openNav()">Navigation Bar</span>
+	<a class="closebtn" onclick="closeNav()"></a>
+	<script>
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.body.style.backgroundColor = "#5480AF"
+
+		}
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+	</script>
+
+	<header>
+		<h1 id="title"><mark style="float:left; background-color: #92D26F; color: white;">Covalence Global</mark></h1>
+	</header>
+
+
+	<br>
+	<br>
+	<br>
+	<h1><mark>Projects</mark></h1>
 	<p>All of our projects are climate-related. They strive to make a positive impact on topics including science/innovation, climate change breakthroughs, environmental awareness, environmental policy, new economic paradigms, etc. If you are interested in partnering with us on a project, please fill out <a id="partnerForm" href ="https://docs.google.com/forms/d/e/1FAIpQLSeS2P3dvxB85ctPYAJqYYfv1eJtRzAvs2ZdjsSRdncTpf7bOQ/viewform">this form.</a></p>
-	<h2>Covalent Youth</h2>
+	<br>
+	<h2><mark>Covalent Youth</mark></h2>
 	<p>Covalent Youth promotes Covalence's mission by providing a platform that enables youth who care about climate change and justice to connect with other like-minded individuals. CGY creates a productive networking system for the earth's future environmental leaders. Our youth network spans <b>5 continents</b> and several <b>US states</b>.</p>
 
-	<p><b>How It Works</b>
+	<p>How It Works</p>
 		<ul>
 			<li><b>Main priority:</b> connecting with other youth using our software platform. Here is a <a id="software" href = "https://docs.google.com/document/d/1EUWEHGOedG7VKushNqAhhajLXg5x6TQ6rVCsZR7cM3U/edit?usp=sharing">link</a> to how our software works.</li>
 			<li><b>Minimum commitment:</b> attend bi-monthly (meaning once every two months) Zoom meetings with fellow youth. However, we encourage participation in our projects, events, or journal if your time permits!</li>
@@ -43,24 +54,24 @@
 					<li id="indent">J<b>ournal:</b> Youth may write for our journal. This can be anything from posting articles consistently to writing a single op-ed. Topics can range from the technology of nuclear fission to climate justice. We would love to elevate your ideas!</li>
 			<li><b>Social media/website:</b> We would love to feature any of your work on our website and growing media platforms.</li>
 		</ul>
-		<p>You can meet our current youth network partners <a id="cyLink" href="covalentYouth.html">here!</a></p>
+		<center><p>You can meet our current youth network partners <a class="button" href="covalentYouth.html">here!</a></p></center>
 
-	<center><button type = "button" id="joinToday"><a href = "https://forms.gle/KHUnxVphm411twGc7" target="_blank" rel="noopener noreferrer">Join Our Youth Network Today!</a></button></center>
-	<h2>Covalence - SF</h2>
-	<img id="beachCleanup" src ="beachCleanup.jpg">
+	<center><button type = "button" class="button" id="joinToday"><a href = "https://forms.gle/KHUnxVphm411twGc7" target="_blank" rel="noopener noreferrer">Join Our Youth Network Today!</a></button></center>
+	<br>
+	<h2><mark>Covalence San Francisco</mark></h2>
 	<p id="recentProject">Our most recent project was a locally-focused beach cleanup group. We worked to care for the Bay Area's waters, picking up over 500 pounds of trash. We also provided members with other SF community service opportunities, such as tree planting, food banks, and garden preservation. </p>
 	
 
 	<footer>
-		<h1><center>Covalence - Global</center></h1>
+		<h1><center style="color: white">Covalence Global</center></h1>
 		<center>
-		<button type = "button"><a href = "https://forms.gle/KSs5S4arQDzWnYDq8" target="_blank" rel="noopener noreferrer">Register and/or Sign-Up to Present for Our Youth Climate Change Conference</a></button>
-		<button type = "button"><a href = "https://forms.gle/KHUnxVphm411twGc7" target="_blank" rel="noopener noreferrer">Join Our Youth Network</a></button>
-		<button type = "button"><a href = "https://forms.gle/NgxLxVgjLjeDTdmq9" target="_blank" rel="noopener noreferrer">Join Our Newsletter</a></button>
-		<button type = "button"><a href = "https://forms.gle/jk8F2yaqypMVZLEN9" target="_blank" rel="noopener noreferrer">Partner</a></button>
-		<button type = "button"><a href = "https://forms.gle/QDMoHnWVYJgowL5z9" target="_blank" rel="noopener noreferrer">Join Our Team</a></button>
-		<button type = "button"><a href = "https://forms.gle/kPWo5sHAZXBZotSbA" target="_blank" rel="noopener noreferrer">Write an Op-Ed for Our Journal</a></button>
-		<button type = "button"><a href = "https://forms.gle/7HVghMVaL6ucng738" target="_blank" rel="noopener noreferrer">Contact Us</a></button>
-		<button type="button"><a href = "https://www.instagram.com/covalence.global/reels/" target="_blank" rel="noopener noreferrer">Instagram</a></button>
-	
+		<button type = "button" class="footerButton"><a href = "https://forms.gle/KSs5S4arQDzWnYDq8" target="_blank" rel="noopener noreferrer">Register and/or Sign-Up to Present for Our Youth Climate Change Conference</a></button>
+		<button type = "button" class="footerButton"><a href = "https://forms.gle/KHUnxVphm411twGc7" target="_blank" rel="noopener noreferrer">Join Our Youth Network</a></button>
+		<button type = "button" class="footerButton"><a href = "https://forms.gle/NgxLxVgjLjeDTdmq9" target="_blank" rel="noopener noreferrer">Join Our Newsletter</a></button>
+		<button type = "button" class="footerButton"><a href = "https://forms.gle/jk8F2yaqypMVZLEN9" target="_blank" rel="noopener noreferrer">Partner</a></button>
+		<button type = "button" class="footerButton"><a href = "https://forms.gle/QDMoHnWVYJgowL5z9" target="_blank" rel="noopener noreferrer">Join Our Team</a></button>
+		<button type = "button" class="footerButton"><a href = "https://forms.gle/kPWo5sHAZXBZotSbA" target="_blank" rel="noopener noreferrer">Write an Op-Ed for Our Journal</a></button>
+		<button type = "button" class="footerButton"><a href = "https://forms.gle/7HVghMVaL6ucng738" target="_blank" rel="noopener noreferrer">Contact Us</a></button>
+		<button type="button" class="footerButton"><a href = "https://www.instagram.com/covalence.global/reels/" target="_blank" rel="noopener noreferrer">Instagram</a></button>
 	</footer>
+</html>

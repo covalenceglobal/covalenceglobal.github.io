@@ -1,0 +1,159 @@
+html {
+	background-color: #5480AF;
+	width: 1000px;
+	margin: auto;
+}
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: ;
+}
+
+h1 mark {
+	background-color: #92D26F;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+}
+
+h2 mark {
+	background-color: white;
+	color: #92D26F;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+.lsb {
+	text-align: center;
+}
+
+@keyframes fade {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+footer {
+	background-color: #92D26F;
+}
+
+.footerButton a {
+	color: white;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.footerButton {
+	background-color: #5480AF;
+}
+
+.button a {
+	color: white;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.button {
+	background-color: #92D26F;
+}
+
+.button:hover {
+	background-color: #5480AF;
+}
+
+.footerButton a:hover {
+	color: white;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+.footerButton:hover {
+	background-color: #92D26F;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #92D26F;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+	font-family: 'Raleway', sans-serif;
+}
+
+.sidenav a {
+	padding:  8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	background-color: #5480AF;
+	color: white;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 36px;
+	color: white;
+
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px}
+	.sidenav a {font-size: 18px}
+}
+
+#open {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  padding: 11px;
+  background-color: #92D26F;
+  animation-name: colorChange2;
+  animation-duration: 4s;
+  color: white;
+  font-family: 'Raleway', sans-serif
+}
+
+#open:hover {
+	background-color: #5480AF;
+	color: white;
+
+}
+
+#open, h1, h2, p, li, footer, .footerButton, .button {
+	animation-name: fade;
+	animation-duration: 4s;
+}
