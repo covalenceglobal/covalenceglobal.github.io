@@ -167,6 +167,7 @@ footer {
 
 .profiles img {
 	align: center;
+	float: left;
 	border-width: 40px;
 	border-color: #92D26F;
 }
