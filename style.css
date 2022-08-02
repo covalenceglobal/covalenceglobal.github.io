@@ -18,6 +18,8 @@ h1 mark {
 
 h2 {
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
 }
 
 h2 mark {
@@ -164,7 +166,7 @@ footer {
 }
 
 .profiles img {
-	float: left;
+	align: center;
 	border-width: 40px;
 	border-color: #92D26F;
 }
