@@ -1,3 +1,8 @@
+#open, h1, h2, p, li, footer, .footerButton, .button, img, figcaption, .news{
+	animation-name: fade;
+	animation-duration: 4s;
+}
+
 html {
 	background-color: #5480AF;
 	width: 1000px;
@@ -8,7 +13,7 @@ html {
 h1 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	color: ;
+	color: white;
 }
 
 h1 mark {
@@ -28,7 +33,7 @@ h2 mark {
 	font-family: 'Raleway', sans-serif;
 }
 
-p {
+p, figcaption {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	color: white;
@@ -155,11 +160,6 @@ footer {
 
 }
 
-#open, h1, h2, p, li, footer, .footerButton, .button, img {
-	animation-name: fade;
-	animation-duration: 4s;
-}
-
 .profiles p {
 	padding-bottom: 220px;
 	padding-left: 300px;
@@ -170,4 +170,14 @@ footer {
 	float: left;
 	border-width: 40px;
 	border-color: #92D26F;
+}
+
+img {
+	border-width: 10px;
+	border-color: #92D26F;
+}
+
+.news {
+	background-color: #92D26F;
+	border-radius: 15px;
 }
